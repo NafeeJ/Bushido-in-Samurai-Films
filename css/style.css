@@ -13,7 +13,7 @@ body, html {
   src: url('../font/Kashima.otf') format('truetype');
 }
 
-.pimg1, .pimg2, .pimg3 {
+.pimg1, .pimg2, .pimg3, .pimg4 {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -36,12 +36,17 @@ body, html {
 
 .pimg2 {
   background-image: urL('../img/sanjuro.jpg');
-  min-height: 500px;
+  min-height: 600px;
 }
 
 .pimg3 {
   background-image: urL('../img/Ghost_Dog.jpg');
-  min-height: 500px;
+  min-height: 600px;
+}
+
+.pimg4 {
+  background-image: urL('../img/samurai_musashi.png');
+  min-height: 600px;
 }
 
 .fin {
